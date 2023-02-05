@@ -33,7 +33,7 @@ const Contact = (props) => {
           <input
             type="text"
             name="email"
-            placeholder={props.textinput_placeholder1}
+            placeholder="Email here"
             className="contact-textinput1 input"
           />
           <textarea

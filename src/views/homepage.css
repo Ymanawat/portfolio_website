@@ -191,6 +191,8 @@
 }
 .homepage-pasted-image04 {
   width: auto;
+  height: 100%;
+  align-self: center;
   margin-top: var(--dl-space-space-threeunits);
   margin-left: var(--dl-space-space-sixunits);
   margin-right: var(--dl-space-space-sixunits);
@@ -679,6 +681,11 @@
   .homepage-hero {
     flex-direction: column;
   }
+  .homepage-pasted-image04 {
+    flex: 1;
+    height: auto;
+    align-self: stretch;
+  }
   .homepage-be-frend {
     flex-direction: column;
   }
@@ -839,8 +846,8 @@
 }
 @media(max-width: 479px) {
   .homepage-b-l-a-c-k-s-i-g-n-p-n-g1 {
-    margin-left: var(--dl-space-space-fiveunits);
-    margin-right: var(--dl-space-space-sixunits);
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
   }
   .homepage-hero {
     padding-top: var(--dl-space-space-twounits);
@@ -855,6 +862,12 @@
   }
   .homepage-text01 {
     width: auto;
+  }
+  .homepage-pasted-image04 {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    align-self: center;
   }
   .homepage-be-frend {
     padding-top: var(--dl-space-space-twounits);
@@ -927,6 +940,8 @@
     width: 362px;
     height: 194px;
     margin-top: var(--dl-space-space-unit);
+    border-color: var(--dl-color-gray-black);
+    border-width: 3px;
   }
   .homepage-be-frend-web {
     height: auto;
@@ -959,6 +974,8 @@
     width: 395px;
     height: 184px;
     margin-top: var(--dl-space-space-unit);
+    border-color: var(--dl-color-gray-black);
+    border-width: 3px;
     margin-right: var(--dl-space-space-fourunits);
   }
   .homepage-creatives {
