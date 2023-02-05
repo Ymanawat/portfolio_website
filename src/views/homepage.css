@@ -890,6 +890,15 @@
   .homepage-btn-group {
     flex-direction: column;
   }
+  .homepage-pasted-image05 {
+    width: auto;
+    height: auto;
+    align-self: stretch;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .homepage-twins {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -914,6 +923,15 @@
   .homepage-btn-group2 {
     flex-direction: column;
   }
+  .homepage-pasted-image06 {
+    width: auto;
+    height: auto;
+    align-self: stretch;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .homepage-ardor {
     min-height: auto;
     padding-top: var(--dl-space-space-twounits);
@@ -937,11 +955,13 @@
     flex-direction: column;
   }
   .homepage-pasted-image07 {
-    width: 362px;
-    height: 194px;
+    width: auto;
+    height: auto;
+    align-self: stretch;
     margin-top: var(--dl-space-space-unit);
-    border-color: var(--dl-color-gray-black);
-    border-width: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
   }
   .homepage-be-frend-web {
     height: auto;
@@ -971,12 +991,13 @@
     flex-direction: column;
   }
   .homepage-pasted-image08 {
-    width: 395px;
-    height: 184px;
+    width: auto;
+    height: auto;
+    align-self: stretch;
     margin-top: var(--dl-space-space-unit);
-    border-color: var(--dl-color-gray-black);
-    border-width: 3px;
-    margin-right: var(--dl-space-space-fourunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
   }
   .homepage-creatives {
     padding-top: var(--dl-space-space-twounits);
